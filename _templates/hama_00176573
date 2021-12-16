@@ -14,3 +14,5 @@ standard: eu
 chip: TYWE2S
 ---
 Open Device -> desold platina -> flash TYWE2S 
+
+16. Dec. 2021: Beware! Do not buy! Needs to be flashed over serial, since this is a patched Tuya device (TYWE2S-Module inside). Unfortunately, the required pins are covered behind a capacitor and there are only 2-3mm space between the case and the pcb bottom side for desoldering. Therefore you have to remove the whole pcb to get it done. Since the pcb is held in place by the solder joints to the plug contacts, this requires a beefy soldering iron, very good skills and much effort. I literally fried my board with the required amount of heat for desoldering the socket and plug contacts. Another possible way of flashing this might be to rip off the cap and replace it with a new one (220µF, 10V) after flashing, wired to the pins of the old cap.
